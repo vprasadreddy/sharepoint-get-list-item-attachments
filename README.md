@@ -1,16 +1,14 @@
 # sharepoint-get-list-item-attachments
-```
+
 /*
  * JQuery WYSIWYG Web Form Designer
  * Copyright 2015 AgilePoint Inc
  */
 
-/* Add your JS code Here (Press Ctrl+Space keys for intellisense) */
-
 eFormEvents.onFormLoadComplete = function () {
 getListItemAttachments();
 }
-
+```
 function getListItemAttachments(){
 //use _spPageContextInfo.webAbsoluteUrl for dynamic site URL
 var listtitle = "Entry";
